@@ -1,0 +1,20 @@
+指定されたXMLファイルの妥当性を検査するプログラム
+
+以下のページの記事を参考にしています。
+http://www.atmarkit.co.jp/fjava/javatips/126java023.html
+
+動作確認
+Mac OS X 10.7.2
+
+$ java -version
+java version "1.6.0_29"
+Java(TM) SE Runtime Environment (build 1.6.0_29-b11-402-11M3527)
+Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02-402, mixed mode)
+
+コンパイル方法
+javac DtdValidation.java
+
+実行方法例
+java DtdValidation /Users/tmpz84/src/ruby-1.9.3-p0/test/rexml/data/web.xml
+
+
