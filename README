@@ -14,7 +14,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 20.4-b02-402, mixed mode)
 コンパイル方法
 javac DtdValidation.java
 
-実行方法例
+実行方法例:
 java DtdValidation /Users/tmpz84/src/ruby-1.9.3-p0/test/rexml/data/web.xml
 
 
